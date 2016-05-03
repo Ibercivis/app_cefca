@@ -1,6 +1,6 @@
 {
-    "name": "Flickr Person Finder 2",
-    "short_name": "flickrperson",
-    "description": "Image pattern recognition",
-    "question": "Do you see a real human face in this photo?"
+    "name": "Supernovae",
+    "short_name": "supernovae",
+    "description": "Encuentra una supernova",
+    "question": "¿Hay una supernova en esta foto?"
 }
