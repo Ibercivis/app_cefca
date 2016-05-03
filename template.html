@@ -184,6 +184,9 @@ pybossa.presentTask(function(task, deferred) {
         $("#photo-link").attr("href", task.info.link);
         $("#question").html(task.info.question);
         $('#task-id').html(task.id);
+	$('#svg1').css('background','url("'+task.info.url_b+'")');
+	$('#svg2').css('background','url("'+task.info.url_b+'")');
+	$('#svg3').css('background','url("'+task.info.url_b+'")');
         $('.btn-answer').off('click').on('click', function(evt) {
             var btn = $(this);
             var answer = btn.attr("value");
