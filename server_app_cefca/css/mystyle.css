@@ -1,0 +1,188 @@
+body{
+				background: #000;
+				font-family: Arial;
+				color: #fafafa;
+				background: url('/static/app_cefca/img/cefca.png');
+				background-attachment:fixed;
+				background-position:center bottom;
+				background-repeat: no-repeat;
+				background-size: 100%;
+}
+
+.navbar-inner{
+	background: #000 !important;
+}
+div.selector{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+}
+#selectsupernova{
+        background: url('/static/app_cefca/img/supernova.svg');
+        -webkit-filter: grayscale(90%);
+        filter: grayscale(90%);
+        background-size: 100% 100%;
+        float: left;
+}
+#selecterror{
+        background: url('/static/app_cefca/img/cancel.svg');
+        -webkit-filter: grayscale(90%);
+        filter: grayscale(90%);
+        background-size: 100% 100%;
+        margin-left: 80px;
+        float:left;
+}
+#selectquestion{
+        background: url('/static/app_cefca/img/help-bubble.svg');
+        -webkit-filter: grayscale(90%);
+        filter: grayscale(90%);
+        background-size: 100% 100%;
+        float: right;
+	margin-right: -10px;
+}
+svg{
+        width: 310px;
+        height: 310px;
+        margin-top: 10px;
+        float: left;
+        border: 1px solid #aaa;
+        background-size: 100% 100%;
+        border-radius: 10px;
+}
+div.myslider.ui-slider {
+  border-radius: 20px;
+  background: #434d5a;
+  border: none;
+  height: 10px;
+  width: 250px;
+  margin-left: 30px;
+}
+
+div.myslider .ui-slider-handle {
+  border-radius: 22px;
+  height: 21px;
+  width: 21px;
+  top: -7px;
+  margin-left: -11px;
+  border: 2px solid #000;
+  background-image: url('/static/app_cefca/img/contrast.png');
+}
+
+div.myslider .ui-slider-pip {
+  top: 3px;
+}
+
+div.myslider .ui-slider-pip .ui-slider-line {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    margin-left: -2px;
+    background: #fffaf7;
+}
+
+div.myslider .ui-slider-pip.ui-slider-pip-last,
+div.myslider .ui-slider-pip.ui-slider-pip-first {
+    top: -7px;
+}
+
+div.myslider .ui-slider-pip.ui-slider-pip-last .ui-slider-line,
+div.myslider .ui-slider-pip.ui-slider-pip-first .ui-slider-line {
+      display: none;
+}
+
+div.myslider .ui-slider-pip.ui-slider-pip-last .ui-slider-label,
+div.myslider .ui-slider-pip.ui-slider-pip-first .ui-slider-label {
+      margin: 0;
+}
+div.myslider .ui-slider-pip.ui-slider-pip-first .ui-slider-label {
+    left: -2em;
+    text-align: right; }
+               
+div.myslider .ui-slider-pip.ui-slider-pip-last .ui-slider-label {
+    left: 2em;
+    text-align: left; }
+                    
+div.myslider .ui-slider-pip.ui-slider-pip-selected-initial {
+    font-weight: normal;
+}
+            
+div.myslider .ui-slider-pip.ui-slider-pip-selected {
+    font-weight: bold; }
+                    
+div.myslider .ui-slider-pip.ui-slider-pip-selected,
+div.myslider .ui-slider-pip.ui-slider-pip-selected-initial {
+    color: #434d5a; }
+
+* Tooltips */
+.ui-tooltip, .arrow:after {
+    border: 2px solid white;
+  }
+  .ui-tooltip {
+    background: #000;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+.myimgtip{
+        float:left;
+}
+.mytip{
+        float: left;
+        width: 200px;
+        margin-top: 10px;
+}
+.circulo{
+	z-index: 100;
+}
+.mybtn{
+        margin-top: 10px;
+}
+.mybtnr{
+        margin-top: 10px;
+        float: right;
+	margin-right: -12px;
+}
+#disqus_show_btn{
+	text-align: center;
+}
+div.progress{
+  border-radius: 3px;
+}
+
+
